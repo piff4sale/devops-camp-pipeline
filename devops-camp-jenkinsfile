@@ -47,6 +47,7 @@ pipeline {
                     }
                 }
             }
+        }
         stage('Database docker build') {
             steps {
                 echo "Building database image"
